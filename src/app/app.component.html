@@ -1,0 +1,16 @@
+<div class="main">
+  <div class="header">
+    <img src="assets/github.png" alt="">
+    <span>
+      {{title}}
+    </span>
+  </div>
+  <div class="form">
+    <span>Busque um usuário</span>
+    <input type="text" name="" id="">
+    <button (click)="buscar()">enviar</button>
+  </div>
+  <div class="result">
+    {{ result | json }}
+  </div>
+</div>

@@ -1,0 +1,8 @@
+<div class="header">
+    <div class="user" *ngIf='user'>
+      <img [src]="user.avatar_url" alt="">
+      <span>
+        {{user.login}}
+      </span>
+    </div>
+  </div>

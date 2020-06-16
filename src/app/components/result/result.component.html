@@ -1,0 +1,5 @@
+<div class="result">
+    <ul *ngFor="let repo of result">
+      <li (click)="goToGithubHandler(repo.html_url)">{{repo.name}}</li>
+    </ul>
+  </div>

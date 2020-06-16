@@ -1,0 +1,24 @@
+.main {
+    padding: 12px;
+    .header {
+        margin-bottom: 12px;
+        img {
+            width: 50%;
+        }
+        span {
+            display: block;
+        }
+    }
+    .form {
+        span {
+            display: block;
+            margin-bottom: 4px;
+        }
+        button {
+            margin-left: 8px;
+        }
+    }
+    .result {
+        padding: 8px;
+    }
+}
